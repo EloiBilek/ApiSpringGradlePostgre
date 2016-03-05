@@ -17,6 +17,7 @@ Using:
 * Spring 4
 * Hibernate 5
 * DataSources/Resource Pools C3P0 0.9.1.2
+* PostgreSQL 9.4.1208.jre7
 * Tomcat 8
 * Eclipse Java EE IDE - Version: Mars.1 Release (4.5.1)
 
