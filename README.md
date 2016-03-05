@@ -41,11 +41,9 @@ To run the project in Tomcat server linked in Eclipse, set the Project Facets in
 ## Note 2!
 This Project have a DataSource control to the pool of connections (C3P0) in:
 /ApiSpringGradlePostgre/src/main/java/com/apispringgradlepostgre/config/PersistenceConfig.java
-
-## Note 3!
 Before starting project, set application.properties with the url of your database, username and password. If the database does not exist, set the hibernate.hbm2ddl.auto attribute to create it.
 
-Build in: ApiSpringGradlePostgre > Gradle > Refresh Gradle Project.
+After importing the project to the Eclipse workspace, run build in: ApiSpringGradlePostgre > Gradle > Refresh Gradle Project.
 Or select task (assemble, build...) in Gradle Tasks perspective.
 
 ![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/gradle_tasks.png)
