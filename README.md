@@ -23,36 +23,36 @@ Using:
 
 This project was started with: New > Gradle > Project Gradle.
 
-![init project](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/init_project.png)
+![init project](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/init_project.png)
 
 Using the plugin (Add in Eclipse Marketplace). 
 
-![gradle plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/gradle_plugin.png)
+![gradle plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/gradle_plugin.png)
 
 To run the project in Tomcat server linked in Eclipse, set the Project Facets in: Project Properties > Project Facets.
 
-![facets](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/facets.png)
+![facets](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/facets.png)
 
 ... And add external dependencies on: Project Properties > Deployment Assembly.
 
-![facets](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/properties_deployment.png)
+![facets](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/properties_deployment.png)
 
 Build in: ApiSpringGradlePostgre > Gradle > Refresh Gradle Project.
 Or select task (assemble, build...) in Gradle Tasks perspective.
 
-![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/gradle_tasks.png)
+![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/gradle_tasks.png)
 
 To test requests (post, get, put and delete), I use the following plugin for chrome:
 
-![rest plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/chrome_rest_plugin.png)
+![rest plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/chrome_rest_plugin.png)
 
 Request example.
 
-![request test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/resquest_test.png)
+![request test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/resquest_test.png)
 
 Response example.
 
-![response test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/response_test.png)
+![response test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/response_test.png)
 
 
 
