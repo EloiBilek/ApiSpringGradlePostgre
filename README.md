@@ -34,7 +34,7 @@ To run the project in Tomcat server linked in Eclipse, set the Project Facets in
 
 Build in: ApiSpringGradlePostgre > Gradle > Refresh Gradle Project.
 Or select task (assemble, build...) in Gradle Tasks perspective.
-![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/properties_deployment.png)
+![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/gradle_tasks.png)
 
 
 
