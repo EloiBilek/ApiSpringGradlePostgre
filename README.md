@@ -21,6 +21,7 @@ Using:
 * Tomcat 8
 * Eclipse Java EE IDE - Version: Mars.1 Release (4.5.1)
 
+## Note 1!
 This project was started with: New > Gradle > Project Gradle.
 
 ![init project](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/init_project.png)
@@ -36,6 +37,13 @@ To run the project in Tomcat server linked in Eclipse, set the Project Facets in
 ... And add external dependencies on: Project Properties > Deployment Assembly.
 
 ![facets](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/properties_deployment.png)
+
+## Note 2!
+This Project have a DataSource control to the pool of connections (C3P0) in:
+/ApiSpringGradlePostgre/src/main/java/com/apispringgradlepostgre/config/PersistenceConfig.java
+
+## Note 3!
+Before starting project, set application.properties with the url of your database, username and password. If the database does not exist, set the hibernate.hbm2ddl.auto attribute to create it.
 
 Build in: ApiSpringGradlePostgre > Gradle > Refresh Gradle Project.
 Or select task (assemble, build...) in Gradle Tasks perspective.
