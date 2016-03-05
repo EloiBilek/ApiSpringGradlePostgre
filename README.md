@@ -49,6 +49,9 @@ Or select task (assemble, build...) in Gradle Tasks perspective.
 
 ![gradle tasks](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/gradle_tasks.png)
 
+In Tomcat server, add the project, click Publish, make sure synchronized.
+Start with Play or Debug.
+
 To test requests (post, get, put and delete), I use the following plugin for chrome:
 
 ![rest plugin](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SGP/chrome_rest_plugin.png)
