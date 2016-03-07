@@ -1,7 +1,7 @@
 package com.apispringgradlepostgre.model.entity;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,6 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "user_api")
@@ -25,6 +27,7 @@ public class User implements Serializable {
 	@Column(name = "name")
 	private String name;
 
+	@Temporal(TemporalType.DATE)
 	@Column(name = "date_birth")
 	private Date dateBirth;
 
