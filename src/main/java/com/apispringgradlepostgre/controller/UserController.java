@@ -25,7 +25,7 @@ import com.apispringgradlepostgre.model.service.IUserService;
  */
 @RestController
 @RequestMapping("/v1/users")
-public class UserContoller {
+public class UserController {
 
 	@Autowired
 	private IUserService userService;
@@ -33,7 +33,7 @@ public class UserContoller {
 	// @Autowired
 	// private ApplicationEventPublisher eventPublisher;
 
-	public UserContoller() {
+	public UserController() {
 		super();
 	}
 
