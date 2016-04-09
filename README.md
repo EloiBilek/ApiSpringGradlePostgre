@@ -2,7 +2,7 @@
 Title: ApiSpringGradlePostgre
 Description: API example using Spring, Gradle and PostgreSQL
 Author: Eloi Bilek
-Tags: gradle, restfull, api, java
+Tags: gradle, restful, api, java, spring
 Created: 2016 Mar 04
 
 ---
