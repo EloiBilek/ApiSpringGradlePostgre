@@ -2,8 +2,8 @@ package com.apispringgradlepostgre.model.service;
 
 import java.util.List;
 
+import com.apispringgradlepostgre.model.common.IOperations;
 import com.apispringgradlepostgre.model.entity.User;
-import com.apispringgradlepostgre.model.persistence.IOperations;
 
 public interface IUserService extends IOperations<User> {
 	public User findById(final long id);

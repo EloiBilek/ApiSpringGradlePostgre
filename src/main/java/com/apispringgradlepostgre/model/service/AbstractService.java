@@ -1,4 +1,4 @@
-package com.apispringgradlepostgre.model.service.common;
+package com.apispringgradlepostgre.model.service;
 
 import java.io.Serializable;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.apispringgradlepostgre.model.persistence.IOperations;
+import com.apispringgradlepostgre.model.common.IOperations;
 import com.google.common.collect.Lists;
 
 

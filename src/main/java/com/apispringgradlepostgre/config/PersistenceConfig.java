@@ -34,7 +34,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @Configuration
 @PropertySources(value = { @PropertySource("classpath:application.properties") })
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "com.apispringgradlepostgre.model.persistence.dao")
+@EnableJpaRepositories(basePackages = "com.apispringgradlepostgre.model.repository")
 public class PersistenceConfig {
 
 	@Autowired

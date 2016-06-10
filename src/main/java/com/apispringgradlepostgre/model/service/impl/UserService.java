@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.apispringgradlepostgre.model.entity.User;
-import com.apispringgradlepostgre.model.persistence.dao.IUserRepository;
+import com.apispringgradlepostgre.model.repository.IUserRepository;
+import com.apispringgradlepostgre.model.service.AbstractService;
 import com.apispringgradlepostgre.model.service.IUserService;
-import com.apispringgradlepostgre.model.service.common.AbstractService;
 
 /**
  * @author eloi.bilek
